@@ -1,4 +1,6 @@
-{
+import slider1 from "../assets/slider-1.jpg";
+import slider2 from "../assets/slider-2.jpg";
+export const HomePageData = {
   header: {
     logo: (
       <svg
@@ -339,6 +341,7 @@
       options: ["English", "Español", "Français", "Deutsch", "中文"],
     },
   },
+  carousel: [slider1, slider2],
   sliderbanner: [
     {
       heading: "Learning that gets you",
@@ -3490,5 +3493,167 @@
         ],
       },
     ],
+  },
+  testimonials: {
+    heading:
+      "Trusted by over 16,000 companies and millions of learners around the world",
+    brands: [
+      "https://cms-images.udemycdn.com/content/tqevknj7om/svg/volkswagen_logo.svg?position=c&quality=80&x.app=portals",
+      "https://cms-images.udemycdn.com/content/2gevcc0kxt/svg/samsung_logo.svg?position=c&quality=80&x.app=portals",
+      "https://cms-images.udemycdn.com/content/mueb2ve09x/svg/cisco_logo.svg?position=c&quality=80&x.app=portals",
+      "https://cms-images.udemycdn.com/content/ryaowrcjb2/svg/vimeo_logo_resized-2.svg?position=c&quality=80&x.app=portals",
+      "https://cms-images.udemycdn.com/content/bthyo156te/svg/procter_gamble_logo.svg?position=c&quality=80&x.app=portals",
+      "https://cms-images.udemycdn.com/content/luqe0d6mx2/svg/hewlett_packard_enterprise_logo.svg?position=c&quality=80&x.app=portals",
+      "https://cms-images.udemycdn.com/content/siaewwmkch/svg/citi_logo.svg?position=c&quality=80&x.app=portals",
+      "https://cms-images.udemycdn.com/content/swmv0okrlh/svg/ericsson_logo.svg?position=c&quality=80&x.app=portals",
+    ],
+  },
+  WhatWeOffer: {
+    heading: "Learning focused on your goals",
+    offers: [
+      {
+        title: "Hands-on training",
+        desc: "Upskill effectively with AI-powered coding exercises, practice tests, and quizzes.",
+        sticker:
+          "https://cms-images.udemycdn.com/96883mtakkm8/7kN9RBFSMFNHzsGWsElMPi/dde73f8d1c47e046f035274e78410590/hands-on-practice.png",
+        img: "https://cms-images.udemycdn.com/96883mtakkm8/4kbyXne3Slx9Sfz4nTBqdf/8ac2b75db1a118f15e2fb5dfe2bb4567/desktop-hands-on-learning-2x.png",
+      },
+      {
+        title: "Certification prep",
+        desc: "Prep for industry-recognized certifications by solving real-world challenges and earn badges along the way.",
+        sticker:
+          "https://cms-images.udemycdn.com/96883mtakkm8/2Xh9YHJustDwCEjn5IlO25/93e9b15c6e74876db0dec63466fcc5a0/certificate.png",
+        explore: "Explore Our Courses",
+        img: "https://cms-images.udemycdn.com/96883mtakkm8/GUVYFTj0uwEQuJha5j7TZ/133c991fb3b3f1f93a3e842f4baa7f44/desktop-certification-prep-2x.png",
+      },
+      {
+        title: "Insights and analytics",
+        desc: "Fast-track goals with advanced insights plus a dedicated customer success team to help drive effective learning.",
+        sticker:
+          "https://cms-images.udemycdn.com/96883mtakkm8/6w8plrr7vY9rIY46UuX0q5/2f0a3f0c22e99bd2d430b998c81321f2/empty-state-1.png",
+        enterprise: "Enterprise Plan",
+        explore: "Find out More",
+        img: "https://cms-images.udemycdn.com/96883mtakkm8/6q4N9BvIQusFoheoALJhGj/678c1a0bb6c2a22d95461d409492231e/desktop-insights-and-analytics-2x.png",
+      },
+      {
+        title: "Customizable content",
+        desc: "Create tailored learning paths for team and organization goals and even host your own content and resources.",
+        sticker:
+          "https://cms-images.udemycdn.com/96883mtakkm8/2tKGBrb1N60wox2Lh8j3tz/7f1528c9f88ea47bd6ebb46f345902c3/organizations-2.png",
+        explore: "Find out More",
+        enterprise: "Enterprise Plan",
+        img: "https://cms-images.udemycdn.com/96883mtakkm8/385IhnON960Wvz50ooWIN3/d4e6738c97769258d387b3d609edaad4/desktop-customizable-2x.png",
+      },
+    ],
+  },
+  plans: {
+    heading: "Accelerate growth — for you or your organization",
+    desc: "Reach goals faster with one of our plans or programs. Try one free today or contact sales to learn more.",
+    planCards: [
+      {
+        name: "Personal Plan",
+        audience: "For you",
+        details: "Individual",
+        price: "Starting at ₹850 per month",
+        billing: "Billed monthly or annually. Cancel anytime.",
+        btnText: "Start Subscription",
+        features: [
+          "Access to 12,000+ top courses",
+          "Certification prep",
+          "Goal-focused recommendations",
+          "AI-powered coding exercises",
+        ],
+      },
+      {
+        name: "Team Plan",
+        audience: "For your team",
+        details: "2 to 20 people",
+        price: "₹1,167 a month per user",
+        billing: "Billed annually. Cancel anytime.",
+        btnText: "Start Subscription",
+        features: [
+          "Access to 12,000+ top courses",
+          "Certification prep",
+          "Goal-focused recommendations",
+          "AI-powered coding exercises",
+          "Analytics and adoption reports",
+        ],
+      },
+      {
+        name: "Enterprise Plan",
+        audience: "For your whole organization",
+        details: "More than 20 people",
+        price: "Contact sales for pricing",
+        billing: null,
+        btnText: "Request a Demo",
+        features: [
+          "Access to 27,000+ top courses",
+          "Certification prep",
+          "Goal-focused recommendations",
+          "AI-powered coding exercises",
+          "Advanced analytics and insights",
+          "Dedicated customer success team",
+          "International course collection featuring 15 languages",
+          "Customizable content",
+          "Hands-on tech training with add-on",
+          "Strategic implementation services with add-on",
+        ],
+      },
+    ],
+  },
+  reviews: {
+    heading: "See what others are achieving through learning",
+    reviewCards: [
+      {
+        review:
+          "Udemy was rated the most popular online course or certification program for learning how to code according to StackOverflow’s 2023 Developer survey.",
+        img: "https://cms-images.udemycdn.com/96883mtakkm8/2PBcNgsQa3SvYWklkiN27r/5b8707cc79c8cae5774d5eb3b88b4001/logo_stackoverflow.svg",
+        about: "37,076 responses collected",
+        link: {
+          name: "View Web Development courses",
+          href: "#",
+        },
+      },
+      {
+        review:
+          "Udemy was truly a game-changer and a great guide for me as we brought Dimensional to life.",
+        img: "https://cms-images.udemycdn.com/96883mtakkm8/1Djz6c0gZLaCG5SQS3PgUY/54b6fb8c85d8da01da95cbb94fa6335f/Alvin_Lim.jpeg",
+        name: "Alvin Lim",
+        about: "Technical Co-Founder, CTO at Dimensional",
+        link: {
+          name: "View this iOS & Swift course",
+          href: "#",
+        },
+      },
+      {
+        review:
+          "Udemy gives you the ability to be persistent. I learned exactly what I needed to know in the real world. It helped me sell myself to get a new role.",
+        img: "https://cms-images.udemycdn.com/96883mtakkm8/6dT7xusLHYoOUizXeVqgUk/4317f63fe25b2e07ad8c70cda641014b/William_A_Wachlin.jpeg",
+        name: "William A. Wachlin",
+        about: "Partner Account Manager at Amazon Web Services",
+        link: {
+          name: "View this AWS course",
+          href: "#",
+        },
+      },
+      {
+        review:
+          "With Udemy Business employees were able to marry the two together, technology and consultant soft skills... to help drive their careers forward.",
+        img: "https://cms-images.udemycdn.com/96883mtakkm8/4w9dYD4F64ibQwsaAB01Z4/c4610e9b1ac65589d8b1374ad10714e2/Ian_Stevens.png",
+        name: "Ian Stevens",
+        about:
+          "Head of Capability Development, North America at Publicis Sapient",
+        link: {
+          name: "Read full story",
+          href: "#",
+        },
+      },
+    ],
+  },
+  trending: {
+    heading: "Top trends for the future of work",
+    desc: "Our 2025 Global Learning & Skills Trends Report is out now! Find out how to build the skills to keep pace with change.",
+    btn: "Get the report",
+    img: "https://cms-images.udemycdn.com/96883mtakkm8/1qvvR0FDKv9chruIpia6Sc/b2af22a0097e47de4e4354237e3f378c/Onsite_Desktop_GLSTR25.png",
   },
 };
